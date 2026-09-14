@@ -1,1 +1,3 @@
-console.log("Camp igång");
+console.log("Nord glow");
+console.log("Nord glow");
+console.log("Nord glow");
