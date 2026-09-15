@@ -16,7 +16,7 @@ function totalMinutes(hours, minutes) {
 }
 
 const travel = totalMinutes(2, 15);
-console.log(travel); // 135
+console.log(travel); 
 
 
 console.log("------------------------------------------------------------------")
@@ -56,4 +56,49 @@ if (tempC >= 20) {
   console.log("ljummet");
 } else {
   console.log("kallt");
+}
+
+console.log("------------------------------------------------------------------")
+
+
+const routes = ["Linje 2", "Linje 5", "Linje 8"];
+for (const route of routes) {
+  console.log("Avgår: " + route);
+}
+
+console.log("------------------------------------------------------------------") 
+
+function triple(n) {
+  return n * 3;
+}
+console.log(triple(8));
+
+console.log("------------------------------------------------------------------")
+
+ const tripple = (m) => m * 3; 
+ console.log(tripple(8));
+
+ console.log("------------------------------------------------------------------")
+
+ const travels = ["Thailand", "Finland", "Usa", "Canada"];
+ for(tavel of travels) {
+ console.log(tavel);
+}
+
+console.log("------------------------------------------------------------------")
+
+const note = { title: "Vattna", urgency: 1, isOpen: true };
+console.log(note.title);
+
+function label(title, prefix) {
+  return prefix + ": " + title;
+}
+console.log(label(note.title, "Idag"));
+
+if (note.urgency === 1) {
+  console.log("direkt");
+} else if (note.urgency === 2) {
+  console.log("snart");
+} else {
+  console.log("senare");
 }
